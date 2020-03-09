@@ -1,7 +1,7 @@
 import PySimpleGUI as sg
 import pyAesCrypt
 import os
-
+import icon
 
 def encrypt():
 
@@ -54,7 +54,7 @@ layout = [[sg.Text("Encryption")],
           [sg.Text("")]]
 
 # Create the Window
-window = sg.Window("Riddle me this", layout, icon="protec.ico")
+window = sg.Window("Riddle me this", layout, icon=icon.icon)
 
 # Event Loop to process "events" and get the "values" of the inputs
 while True:
